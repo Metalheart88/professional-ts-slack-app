@@ -10,7 +10,7 @@
     "declaration": true,
     "jsx": "react",
     "moduleResolution": "Node",
-    "noImplicitAny": false
+    "noImplicitAny": true
   },
   "include": ["src"]
 }
