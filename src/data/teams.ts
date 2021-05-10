@@ -1,7 +1,7 @@
 import type { ITeam } from '../types';
 import { apiCall } from '../utils/networking';
 
-const isITeam = (arg: any): arg is ITeam => {
+export const isITeam = (arg: any): arg is ITeam => {
   /**
    * iconUrl: string;
       name: string;
@@ -16,7 +16,7 @@ const isITeam = (arg: any): arg is ITeam => {
   );
 };
 
-function assertIsTypedArray<T>(
+export function assertIsTypedArray<T>(
   arg: any,
   check: (val: any) => val is T,
 ): asserts arg is T[] {
