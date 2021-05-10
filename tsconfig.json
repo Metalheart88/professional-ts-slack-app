@@ -14,7 +14,12 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,
-    "stripInternal": true
+    "stripInternal": true,
+    "traceResolution": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*"]
+    }
   },
   "include": ["src"]
 }
